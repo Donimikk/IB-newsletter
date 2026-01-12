@@ -1,0 +1,64 @@
+# ===========================================
+# IB Newsletter - Git Ignore
+# ===========================================
+# Súbory a priečinky ktoré sa NEpushujú do Gitu
+# ===========================================
+
+# --- Environment a Secrets ---
+# NIKDY nepushuj .env s reálnymi API kľúčmi!
+.env
+.env.local
+.env.production
+
+specification/project_plan.md
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environment ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# --- Local Development ---
+# Lokálne testovacie súbory
+test_output/
+*.html.test

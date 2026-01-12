@@ -1,0 +1,35 @@
+# ===========================================
+# IB Newsletter - Python Dependencies
+# ===========================================
+# Inštalácia: pip install -r requirements.txt
+# ===========================================
+
+# --- OpenAI ---
+# Knižnica pre komunikáciu s GPT API
+# Použitie: Generovanie a verifikácia newslettera
+openai>=1.0.0
+
+# --- HTTP Requests ---
+# Štandardná knižnica pre HTTP volania
+# Použitie: Sťahovanie dát z API/RSS zdrojov
+requests>=2.31.0
+
+# --- Environment Variables ---
+# Načítanie .env súboru s API kľúčmi
+# Použitie: Bezpečné uloženie secrets lokálne
+python-dotenv>=1.0.0
+
+# --- Brevo (bývalý Sendinblue) ---
+# Oficiálna SDK pre Brevo API
+# Použitie: Odosielanie emailov cez SMTP
+sib-api-v3-sdk>=7.6.0
+
+# --- RSS Parser ---
+# Parsovanie RSS feedov
+# Použitie: Ak niektorý zdroj bude RSS namiesto API
+feedparser>=6.0.0
+
+# --- Jinja2 ---
+# Template engine pre HTML
+# Použitie: Renderovanie email šablóny
+Jinja2>=3.1.0
